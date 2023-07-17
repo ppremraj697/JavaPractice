@@ -34,8 +34,6 @@ public class StringConstructors {
 		StringBuffer sb = new StringBuffer("Patil");
 		String str9 = new String(sb);
 		System.out.println(str9);
-		
-
 	}
 
 }
