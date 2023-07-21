@@ -7,7 +7,7 @@ public class Fibonacci {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter the First Term, Common Difference and Nnumber of Terms of Arithmetic Progression to be displayed");
+		System.out.println("Enter the First Term, Common Difference and Number of Terms of Arithmetic Progression to be displayed");
 		int a = sc.nextInt();
 		int d = sc.nextInt();
 		int n = sc.nextInt();
@@ -22,7 +22,7 @@ public class Fibonacci {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter the First Term, Common Ratio and Nnumber of Terms of Geometric Progression to be displayed");
+		System.out.println("Enter the First Term, Common Ratio and Number of Terms of Geometric Progression to be displayed");
 		int a = sc.nextInt();
 		int r = sc.nextInt();
 		int n = sc.nextInt();
@@ -65,8 +65,8 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		
 		Fibonacci fb = new Fibonacci();
-//		fb.ap();
-//		fb.gp();
+		fb.ap();
+		fb.gp();
 		fb.fibonacci();
 	}
 
