@@ -26,9 +26,11 @@ public class SecondLargestElement {
 			if(A[i]==search) {
 				System.out.println("Element is found at "+i+"th index ");
 				found = true;
-				break;
+//				System.exit(0);//exits the whole program, can't execute other methods 
 			}
 		}
+		
+//		System.out.println("Element is not present in the array ");
 		
 		if(!found) {
 			System.out.println("Element is not present in the array");
@@ -72,9 +74,9 @@ public class SecondLargestElement {
 		
 		SecondLargestElement sle = new SecondLargestElement();
 //		sle.sumOfElements();
-//		sle.searchElement();
-//		sle.maxElement();
-		sle.secondLargestElement();
+		sle.searchElement();
+		sle.maxElement();
+//		sle.secondLargestElement();
 		
 
 	}
