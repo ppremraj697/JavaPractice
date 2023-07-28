@@ -47,7 +47,7 @@ public class RotationOfArray {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter element to be inserted ");
+		System.out.println("\nEnter element to be inserted ");
 		int element = sc.nextInt();
 		System.out.println("Enter index where to insert ");
 		int index = sc.nextInt();
@@ -73,7 +73,7 @@ public class RotationOfArray {
 	public void deleteElement() {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter index from where we have to delete element");
+		System.out.println("\nEnter index from where we have to delete element");
 		int index = sc.nextInt();
 		
 		int arr[] = {5,9,6,10,12,7,3,5,4,2};
@@ -99,8 +99,8 @@ public class RotationOfArray {
 	public static void main(String[] args) {
 		
 		RotationOfArray roa = new RotationOfArray();
-//		roa.rotateArray();
-//		roa.insertElement();
+		roa.rotateArray();
+		roa.insertElement();
 		roa.deleteElement();
 
 	}
