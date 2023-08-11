@@ -60,6 +60,7 @@ class Student0{
 		return deptName;
 	}
 	public String[] getSubsName() {
+		System.out.println("123");
 		return subsName;
 	}
 	
@@ -100,18 +101,36 @@ public class ArrayOfObjects {
 			System.out.println(s);
 		}
 		
-		Student0 stud[] = new Student0[3];
-		stud[0] = new Student0("Aniket", 20144, "Comp");
-		stud[0].setSubsName("Math", "Physics", "Chemistry");
 		
-		String stud0[] = stud[0].getSubsName();		
+
+		Student0 stud[] = new Student0[3];
+		
+		//1st OBJECT
+		stud[0] = new Student0("Aniket", 20144, "Comp");
+		stud[0].setSubsName("Math", "Physics", "Chemistry");		
+		String stud0[] = stud[0].getSubsName();	
+		
 		for(String s: stud0 ) {
+			System.out.print(s+" ");
+		}		
+		
+		System.out.println();
+		
+		//2nd OBJECT
+		stud[1] = new Student0("Aman", 19267, "Mech");		
+		stud[1].setSubsName();
+		String stud1[] = stud[1].getSubsName();
+		
+		for(String s: stud1) {
 			System.out.print(s+" ");
 		}
 		
-		stud[1] = new Student0("Aman", 19267, "Mech");
+		System.out.println();
+		
+		//3rd OBJECT
 		stud[2] = new Student0("Durgesh", 21153, "AI&DS");
 		
+		//PRINTING ALL OBJECTS USING toString() method
 		for(Student0 s: stud) {
 			System.out.println(s);
 		}
