@@ -16,9 +16,11 @@ public class Test {
 		System.out.println("DOB: "+acc.getDOB());
 		System.out.println("Balance: "+acc.getBalance());
 		
-		LoanAccount acc1 = new LoanAccount();
+		System.out.println("\nPrinting acc using toString() method...");
+		System.out.println(acc);
+		System.out.println();
 		
-//		System.out.println(acc);
+		LoanAccount acc1 = new LoanAccount();
 //		System.out.println(acc1);
 
 	}
