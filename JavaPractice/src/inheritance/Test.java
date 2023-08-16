@@ -1,7 +1,4 @@
 package inheritance;
-//import inheritance.Account;
-//import inheritance.SavingAccount;
-//import inheritance.LoanAccount;
 
 public class Test {
 
